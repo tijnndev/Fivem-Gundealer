@@ -60,10 +60,10 @@ function OpenAmmo()
 		title = "Ammo",
 		align = 'top-right',
 		elements = {
-			{label = "🔫>> " + _U("ammo-pistol"), value = 'pistol'},
-			{label = "🔫>> " + _U("ammo-pistol"), value = 'smg'},
-            {label = "🔫>> " + _U("ammo-pistol"), value = 'shotguns'},
-			{label = "❌>> " + _U("back"), value = 'mainmenu'}
+			{label = _U("ammo-pistol"), value = 'pistol'},
+			{label = _U("ammo-pistol"), value = 'smg'},
+            {label = _U("ammo-pistol"), value = 'shotguns'},
+			{label = _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)
@@ -101,11 +101,11 @@ function OpenWapens()
 		title = "Wapens",
 		align = 'top-right',
 		elements = {
-			{label = "🔪>> " + _U("melee"), value = 'melee'},
-			{label = "🔫>> " + _U("pistols"), value = 'hand'},
-            {label = "🔫>> " + _U("smgs"), value = 'smgs'},
-			{label = "🔫>> " + _U("shotguns"), value = 'shotguns'},
-			{label = "❌>> " + _U("back"), value = 'mainmenu'}
+			{label = _U("melee"), value = 'melee'},
+			{label = _U("pistols"), value = 'hand'},
+            {label = _U("smgs"), value = 'smgs'},
+			{label = _U("shotguns"), value = 'shotguns'},
+			{label = _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)
@@ -146,7 +146,7 @@ function OpenMelee()
 			{label = _U("knife"), value = 'weapon_knife'},
 			{label = _U("switchblade"), value = 'weapon_switchblade'},
 			{label = _U("machete"), value = 'weapon_machete'},
-			{label = "❌>> " + _U("back"), value = 'mainmenu'}
+			{label = _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)

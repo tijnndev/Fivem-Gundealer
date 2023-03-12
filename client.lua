@@ -60,10 +60,10 @@ function OpenAmmo()
 		title = "Ammo",
 		align = 'top-right',
 		elements = {
-			{label = "🔫>> Pistol", value = 'pistol'},
-			{label = "🔫>> SMG", value = 'smg'},
-            {label = "🔫>> Shotgun", value = 'shotguns'},
-			{label = "❌>> Terug naar main menu", value = 'mainmenu'}
+			{label = "🔫>> " + _U("ammo-pistol"), value = 'pistol'},
+			{label = "🔫>> " + _U("ammo-pistol"), value = 'smg'},
+            {label = "🔫>> " + _U("ammo-pistol"), value = 'shotguns'},
+			{label = "❌>> " + _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)
@@ -101,11 +101,11 @@ function OpenWapens()
 		title = "Wapens",
 		align = 'top-right',
 		elements = {
-			{label = "🔪>> Steekwapens", value = 'melee'},
-			{label = "👕>> Handwapens", value = 'hand'},
-            {label = "🔫>> Automatische Wapens", value = 'smgs'},
-			{label = "🔫>> Shotguns", value = 'shotguns'},
-			{label = "❌>> Terug naar main menu", value = 'mainmenu'}
+			{label = "🔪>> " + _U("melee"), value = 'melee'},
+			{label = "🔫>> " + _U("pistols"), value = 'hand'},
+            {label = "🔫>> " + _U("smgs"), value = 'smgs'},
+			{label = "🔫>> " + _U("shotguns"), value = 'shotguns'},
+			{label = "❌>> " + _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)
@@ -140,13 +140,13 @@ function OpenMelee()
 		title = "Wapens",
 		align = 'top-right',
 		elements = {
-			{label = "Boksbeugel", value = 'weapon_knuckle'},
-			{label = "Hamer", value = 'weapon_hammer'},
-			{label = "Knuppel", value = 'weapon_bat'},
-			{label = "Knife", value = 'weapon_knife'},
-			{label = "Switchblade", value = 'weapon_switchblade'},
-			{label = "Machete", value = 'weapon_machete'},
-			{label = "❌>> Terug naar main menu", value = 'mainmenu'}
+			{label = _U("knuckle"), value = 'weapon_knuckle'},
+			{label = _U("hammer"), value = 'weapon_hammer'},
+			{label = _U("bat"), value = 'weapon_bat'},
+			{label = _U("knife"), value = 'weapon_knife'},
+			{label = _U("switchblade"), value = 'weapon_switchblade'},
+			{label = _U("machete"), value = 'weapon_machete'},
+			{label = "❌>> " + _U("back"), value = 'mainmenu'}
 		}
 	}, 
 	function(data,menu)

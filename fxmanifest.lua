@@ -4,17 +4,14 @@ game 'gta5'
 
 description 'Wapendealer job'
 
-version '0.0.1'
+version '1.0.0'
 
-client_scripts {
-    'client.lua',
-    'config.lua'
-}
+client_scripts {'@es_extended/locale.lua', 'locales/*.lua', 'config.lua', 'client.lua'}
 
 server_scripts {
     '@mysql-async/lib/MySQL.lua',
     'server.lua'
-    }
+}
 
     ui_page 'html/index.html'
 

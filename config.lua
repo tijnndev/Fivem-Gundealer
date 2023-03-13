@@ -2,7 +2,7 @@ Config = {}
 
 Config.Locale = "nl"
 Config.Items {
-    pistolammo = "",
-    smgammo = "",
-    shotgunammo = ""
+    pistolammo = "pistolammo",
+    smgammo = "smgammo",
+    shotgunammo = "smgammo"
 }
